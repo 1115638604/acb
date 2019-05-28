@@ -10,6 +10,7 @@ public class ThreadDemo {
         for (int i = 0; i <3 ; i++) {
             System.out.println("我是main方法");
             System.out.println("我是第二个main方法");
+            System.out.println("我是第二个main方法");
         }
     }
 
