@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script>
+
+        //定义方法
+        function  fun() {
+         var a = 1
+            $.get("user",{username:"aaa"},function (data) {
+               alert(data)
+
+                 alert(a)
+            },"text");
+
+        }
+
+    </script>
+
+
+</head>
+<body>
+
+<input type="button" value="发送异步请求" onclick="fun();">
+
+<div></div>
+
+<input>
+</body>
+</html>
