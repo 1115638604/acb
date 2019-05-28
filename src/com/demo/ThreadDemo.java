@@ -11,6 +11,8 @@ public class ThreadDemo {
             System.out.println("我是main方法");
             System.out.println("我是第二个main方法");
             System.out.println("我是第二个main方法");
+            System.out.println("我是第三个main方法");
+            System.out.println("我是第四个main方法");
         }
     }
 
